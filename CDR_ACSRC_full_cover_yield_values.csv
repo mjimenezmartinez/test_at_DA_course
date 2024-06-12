@@ -1,0 +1,16 @@
+variable,lower ,median,upper,distribution,unit,label,source,Region of the systems or models from which the estimations where made
+n_years,180,,180,const,years,time (number of consecutive years) over which the simulations is run,Arbitrary,Long-term simulation
+years_rotation,6,,6,const,years,time (number of consecutive years) since the year of tree planting until the year of final timber harvest,Schulz et al (2020),Czech Republich
+number_of_rotations,3,,3,const,n,the number of coppice rotations that are supported by the same rootstock material,,Czech Republich
+wooded_area,0.25,,0.25,const,01:01,percentage of the alley-cropping system area dedicated to the growth and management of woody strips,,
+biomass_first_rotation,4.4,,13.2,posnorm,t/ha/year,mean annual biomass increment during the first rotation of a stand composed of clones or hybrids of Populus nigra,t/ha/year,Langhof and Schmiedgen (2023)
+biomass_second_rotation,6.95,,12.9,posnorm,t/ha/year,mean annual biomass increment during the first rotation of a stand composed of clones or hybrids of Populus nigra,t/ha/year,Langhof and Schmiedgen (2023)
+biomass_third_rotation,6.95,,12.9,posnorm,t/ha/year,mean annual biomass increment during the first rotation of a stand composed of clones or hybrids of Populus nigra,t/ha/year,Langhof and Schmiedgen (2023)
+CV_biomass_prod,2,,8,posnorm,percentage,coefficient of variability of annual biomass production,,
+carbon_density,0.45,,0.5,posnorm,kg kg-1,carbon density content in woody biomass,,
+root_to_shoot_ratio,0.3,,0.6,posnorm,ratio,ratio of root biomass over the aboveground biomass,Kay et al. (2019),Europe
+max_soil_C_stock,110,,300,posnorm,ton/ha,maximum amount of carbon that can be stored in the soil,Wiesmeier et al. 2013,Bayern
+initial_soil_C_stock,30,,260,posnorm,ton/ha,carbon stored in the soil at the start of the simulation,Wiesmeier et al. 2013,Bayern
+max_soc_seq_rate,1.11,,1.11,const,ton/ha/year,maximum amount of carbon that can be captured by the soil in one year,Mayer et al. 2022,"Temperate regions, globally"
+max_att_agb,264,,264,const,ton/ha,maximum attainable perennial AGB in German woody stands,Drexler et al. 2021. Carbon sequestration in hedgerow biomass and soil in the temperate climate zone,Schleswig-Holstein
+hl_wood_pulp,0.5,,2,posnorm,years,decay constant of carbon in harvested sawnwood-based products,,
